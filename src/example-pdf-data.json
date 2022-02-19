@@ -1,0 +1,30 @@
+{
+  "myInfo": {
+    "ownerName": "FirstName LastName",
+    "companyName": "Company One LLC",
+    "location": "New York",
+    "addressLine1": "Street 1, 10000 NY, USA",
+    "bankName": "Moon Bank Inc.",
+    "vat": "100200300",
+    "swift": "SWIFTCODEX",
+    "iban": "IBAN00112233445566"
+  },
+  "companies": [
+    {
+      "id": "MoonMining",
+      "name": "Moon Mining Inc.",
+      "addressLine1": "2nd St, New York,",
+      "addressLine2": "NY 10000, USA",
+      "rate": 100,
+      "currency": "USD"
+    },
+    {
+      "id": "MarsColony",
+      "name": "Mars Colony LLC",
+      "addressLine1": "123rd St, New York,",
+      "addressLine2": "NY 10000, USA",
+      "rate": 200,
+      "currency": "USD"
+    }
+  ]
+}

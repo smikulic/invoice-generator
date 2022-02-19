@@ -1,13 +1,16 @@
 .App {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
+  padding: 20px;
 }
 
 .toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  width: 240px;
   padding: 20px;
   border-right: 1px solid #ccc;
 }
@@ -43,7 +46,6 @@
   display: flex;
   padding-bottom: 30px;
 }
-
 .companyTab {
   margin: 0 10px;
   width: 50%;
@@ -52,19 +54,33 @@
   border-bottom: 2px solid rgb(230, 86, 76);
   cursor: pointer;
 }
-
 .companyTab.active {
   opacity: 1;
+  font-weight: 700;
+}
+
+.languageTabs {
+  display: flex;
+  flex-direction: column;
+}
+.languageTab {
+  margin: 10px 20px;
+  padding: 10px;
+  opacity: 0.5;
+  border-right: 2px solid rgb(230, 86, 76);
+  cursor: pointer;
+}
+.languageTab.active {
+  opacity: 1;
+  font-weight: 700;
 }
 
 .main {
+  display: flex;
+  flex-direction: row;
+  margin-left: 260px;
+  padding: 0;
   min-width: 760px;
   max-width: 760px;
-  min-height: 100vh;
-  padding: 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  min-height: 95vh;
 }
